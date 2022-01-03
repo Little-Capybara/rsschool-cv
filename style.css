@@ -1,1 +1,67 @@
-style
+body {
+    margin: 0;
+    padding: 0 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 992px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    height: 177px;
+    background-color: #d285ff;
+  }
+  
+  .header .avatar {
+    object-fit: fill;
+  }
+  
+  .header .title {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .main-content-wrapper {
+    display: flex;
+    flex: 1;
+  }
+  .aside {
+    flex-shrink: 0;
+    width: 266px;
+    background-color: rgb(252, 196, 249);
+  }
+  
+  .aside .contacts {
+    margin: 0;
+    padding: 12px;
+    list-style-type: none;
+  }
+  
+  .aside .contacts li {
+    margin-bottom: 12px;
+  }
+  
+  .aside .contacts a {
+    color: black;
+  }
+  
+  .main {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  
+  .footer {    
+    background-color:#d285ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+  }
