@@ -23,7 +23,9 @@ Creative and flexible student, previously - a dentist, currenntly enrolled on "J
 * VS Code
 * Adobe Photoshop (Basic)
 
+
 ------
+
 ### Code Example
 
 ```
@@ -35,7 +37,9 @@ function multiply(a,b){
 ### Experience
 * CV (project for RSS)
 
+
 ------
+
 ### Education
 * **Courses:**
     + «JavaScript/Front-end. Stage 0»; RS School (online-course) - in progress 
@@ -43,8 +47,10 @@ function multiply(a,b){
 
 * **Higher education:**
     + DMD, Dental Physician; Belarussian State Medical University (Minsk) 2014-2018
-    
+
+
 ------
+
 ### English:
 [B2 according to Adaptive English test 2020](https://examinator.epam.com/Main/PersonalAssignments/157713)
     
