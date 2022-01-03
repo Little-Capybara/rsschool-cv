@@ -4,11 +4,12 @@
 ------
 ### Contacts
 
-__Location:__ Brest, Belarus
-__Phone number:__ +375336228130
-__Email:__ borovikova1970@gmail.com
-__GitHub:__ Little-Capybara
-__Discord:__ Anastasiya(@Little-Capybara)
+* **Location:** Brest, Belarus
+* **Phone number:** +375336228130
+* **Email:** borovikova1970@gmail.com
+* **GitHub:** Little-Capybara
+* **Discord:** Anastasiya(@Little-Capybara)
+
 ------
 ### About me
 
@@ -31,7 +32,7 @@ function multiply(a,b){
 ```
 ------
 ### Experience
-CV (project for RSS)
+* CV (project for RSS)
 ------
 ### Education
 * **Courses:**
