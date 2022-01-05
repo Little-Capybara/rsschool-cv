@@ -14,28 +14,34 @@
 <body>
     <div class="wrapper">
       <header class="header">
-        <img  width="266" height="177" class="avatar" src="./assets/A101-172.jpg" alt="avatar">
+        <img  width="200" height="200" class="avatar" src="./assets/A101-172.jpg" alt="avatar">
         <div class="title-wrapper">
           <div class="title">
             <h1>Anastasiya Baravikova</h1>
             <h2>Junior Front-End Engineer</h2>
           </div>
           <nav class="navigation">
-            <ul>
+            <ul class="navigation-list">
               <li>
-                <a href="#about">About me</a>
+                <a href="#about-me-id">About me</a>
               </li>
               <li>
-                <a href="#skills">Skills</a>
+                <a href="#contacts-id">Contacts</a>
               </li>
               <li>
-                <a href="#codeExample">Code example</a>
+                <a href="#skills-id">Skills</a>
               </li>
               <li>
-                <a href="#education">Education</a>
+                <a href="#experience-id">Experience</a>
               </li>
               <li>
-                <a href="#english">English</a>
+                <a href="#code-example-id">Code example</a>
+              </li>
+              <li>
+                <a href="#education-id">Education</a>
+              </li>
+              <li>
+                <a href="#english-id">English</a>
               </li>
             </ul>
           </nav>
@@ -43,76 +49,97 @@
       </header>
         <div class="main-content-wrapper">
           <aside class="aside">
-            <ul class="contacts">
-              <li>
-                <b>Location</b>
-                <span>Brest, Belarus</span>
-              </li>
-              <li>
-                <b>Phone number</b>
-                <a href="tel:+375336228130">+375336228130</a>
-              </li>
-              <li>
-                <b>Email</b>
-                <a href="mailto:borovikova1970@gmail.com">borovikova1970@gmail.com</a>
-              </li>
-              <li>
-                <a href="https://github.com/Little-Capybara">Little-Capybara</a>
-              </li>
-            </ul>
+            <div class="contacts" id="contacts-id">
+              <h2>Contacts</h2>
+              <ul class="contacts">
+                <li>
+                  <b>Location</b><br>
+                  <span>Brest, Belarus</span>
+                </li>
+                <li>
+                  <b>Phone number</b><br>
+                  <a class="aside-link" href="tel:+375336228130">+375336228130</a>
+                </li>
+                <li>
+                  <b>Email</b><br>
+                  <a class="aside-link" href="mailto:borovikova1970@gmail.com">borovikova1970@gmail.com</a>
+                </li>
+                <li>
+                  <b>GitHub</b><br>
+                  <a class="aside-link" href="https://github.com/Little-Capybara">Little-Capybara</a>
+                </li>
+              </ul>
+            </div>
+            <div class="skills" id="skills-id">
+              <h2>Skills</h2>
+              <ul class="skills">
+                <li>
+                  HTML, CSS, JS (Basic)
+                </li>
+                <li>
+                  Git (GitHub)
+                </li>
+                <li>
+                  VS Code
+                </li>
+                <li>
+                  Adobe Photoshop (Basic)
+                </li>
+              </ul>
+            </div>
+            <div class="experience" id="experience-id">
+              <h2>Experience</h2>
+              <a target="_blank" href="https://little-capybara.github.io/rsschool-cv/">Project "CV" for RSS</a>
+            </div>
           </aside>
           <main class="main">
-            <h2>About me</h2>
-            <p>Creative and flexible student, previously - a dentist, currenntly enrolled on "JavaScript/Front-end. Stage 0" course by RS School. Eager to absorb as much knowledge as possible, I've got a wide range of interests, including neurobiology, evolutionary psychology and philosophy.</p>
-          
-            <h2>Skills</h2>
-            <ul>
-              <li>
-                HTML, CSS, JS (Basic)
-              </li>
-              <li>
-                Git (GitHub)
-              </li>
-              <li>
-                VS Code
-              </li>
-              <li>
-                Adobe Photoshop (Basic)
-              </li>
-            </ul>
+            <div class="about-me" id="about-me-id">
+              <h2>About me</h2>
+              <p>Creative and flexible student, previously - a dentist, currenntly enrolled on "JavaScript/ Front-end. Stage 0" course by RS School. Eager to absorb as much knowledge as possible, I've got a wide range of interests, including neurobiology, evolutionary psychology and philosophy.</p>          
+            </div>
+                          
+            <div class="code-example" id="code-example-id">
+              <h2>Code example</h2>            
+              <pre>
+                <code>
+                  function multiply(a,b){
+                    return a * b
+                  }
+                </code>
+              </pre>              
+            </div>
     
-            <h2>Code example</h2>
-            <pre>
-              <code>
-                function multiply(a,b){
-                  return a * b
-                }
-              </code>
-            </pre>
+            <div class="education" id="education-id">
+              <h2>Education</h2>
+              <ul>
+                <li>Higher education:
+                  <ul>
+                    <li style="list-style-type: square;">DMD, Dental Physician; Belarussian State Medical University (Minsk) 2014-2018</li>                  
+                  </ul>
+                </li>
+                <li>
+                  Courses:
+                  <ul style="list-style-type: square;">
+                    <li>«JavaScript/Front-end. Stage 0»; RS School (online-course) - in progress </li>
+                    <li>HTML and CSS Basics; HTML Academy (online-course) 2021</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
     
-            <h2>Education</h2>
-            <ul>
-              <li>
-                Higher education: DMD, Dental Physician; Belarussian State Medical University (Minsk) 2014-2018
-              </li>
-              <li>
-                Courses:
-                <ol>
-                  <li>«JavaScript/Front-end. Stage 0»; RS School (online-course) - in progress </li>
-                  <li>HTML and CSS Basics; HTML Academy (online-course) 2021</li>
-                </ol>
-              </li>
-            </ul>
-    
-            <h2>English</h2>
-            <a target="_blank" href="https://examinator.epam.com/Main/PersonalAssignments/157713">B2 according to Adaptive English test 2020</a>
-            
+            <div class="languages" id="english-id">
+              <h2>English</h2>
+              <a target="_blank" href="https://examinator.epam.com/Main/PersonalAssignments/157713">B2 according to Adaptive English test 2020</a>                         
+            </div>
+
           </main>
         </div>
         <footer class="footer">
             <div>Copyright &#169; 2022</div>
-            <div><a target="_blank" href="https://github.com/Little-Capybara"><img src="./assets/github.png" alt="GitHub" height="40"></a></div>
-            <div><a target="_blank" href="https://rs.school/js/"><img src="./assets/rs-school.svg" alt="RS school" height="40"></a></div>
+            <div class="footer-links">
+              <div><a target="_blank" href="https://github.com/Little-Capybara"><img src="./assets/github.png" alt="GitHub" height="30"></a></div>
+              <div><a target="_blank" href="https://rs.school/js/"><img src="./assets/rs-school.svg" alt="RS school" height="30"></a></div>
+            </div>
         </footer>
       </div>
 </body>
