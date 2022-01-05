@@ -1,9 +1,19 @@
 body {
+  font-family: Poppins, Verdana, Tahoma, sans-serif;
   margin: 0;
   padding: 0px 10px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  line-height: 24.5px;
+  font-size: 15px;
+}
+
+.title h2{
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 25px;
 }
 
 .wrapper {
@@ -15,40 +25,60 @@ body {
 }
 
 .header {
+  padding: 0px 20px;
   display: flex;
-  height: 177px;
+  height: 240px;
+  color: white;
+  background-color:#a56acc;
+  align-items: center;
 }
 
 .header .avatar {
   object-fit: fill;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
 .header .title-wrapper {
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
   flex: 1;
-  background-color:#d285ff;
+  justify-content: space-evenly;
+}
+.title {
+  border-bottom: 2px solid white;
 }
 
 .navigation {
+  height: 25px;
+  padding-top: 5px ;
+  font-size: 16px;
   color: #d285ff;
 }
 
 .navigation ul {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   list-style-type: none;
+  text-align: center;
+}
+
+ul.navigation-list {
+  padding-left: 0px;
 }
 
 .navigation li {
-  flex: 1;
+  margin-right: 8px;
 }
 
 .navigation li a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .navigation li a:hover {
-  color: greenyellow;
+  color: rgb(126, 250, 209);
 }
 
 .header .title {
@@ -56,40 +86,86 @@ body {
   text-align: center;
 }
   
-  .main-content-wrapper {
-    display: flex;
-    flex: 1;
-  }
-  .aside {
-    flex-shrink: 0;
-    width: 266px;
-    background-color: rgb(252, 196, 249);
-  }
+.main-content-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.about-me h2,
+.education h2, 
+.contacts h2,
+.skills h2,
+.experience h2 {
+  margin: 0px 0px 18.675px;
+}
+
+.education {
+  line-height: 24.5px;
+  list-style-type: square;
+}
+
+pre {
+  margin-bottom: 0px;
+}
+
+.aside {
+  flex-shrink: 0;
+  width: 240px;
+  background-color: rgb(221, 221, 221);
+  font-size: 14px;
+}
+
+a.aside-link {
+  text-decoration: none;
+}
+
+.contacts,
+.skills,
+.experience {
+  margin: 0;
+  padding: 20px;
+  list-style-type: none;
+}
   
-  .aside .contacts {
-    margin: 0;
-    padding: 12px;
-    list-style-type: none;
-  }
+.aside li {
+  margin-bottom: 12px;    
+}
   
-  .aside .contacts li {
-    margin-bottom: 12px;
-  }
+.aside .contacts a {
+  color: black;
+}
+
+ul.skills,
+ul.contacts {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.contacts {
+  padding-top: 35px;
+}
+
+.experience {
+  padding-top: 0px;
+}
+
+.main {
+  background-color: rgb(255, 255, 255);
+  padding: 35px;
+}
   
-  .aside .contacts a {
-    color: black;
-  }
   
-  .main {
-    background-color: rgb(255, 255, 255);
-    padding: 35px;
-  }
-  
-  
-  .footer {    
-    background-color:#d285ff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 60px;
-  }
+.footer {   
+  padding: 25px 25px 15px 25px; 
+  background-color: #a56acc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+}
